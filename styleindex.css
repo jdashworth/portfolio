@@ -1,0 +1,76 @@
+media 
+
+html {
+    background-color: #f3f3f3;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    font-family: "SpaceMono_Regular", sans-serif;
+    width:80%; 
+    margin-left:auto;
+     margin-right:auto; 
+    font-size: large;
+    background-color: #f3f3f3;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+.logo{
+padding: 4rem;}
+
+.title h1 {    
+display: block;
+    overflow: hidden;   
+     margin: 1rem;
+
+  
+  top: 35%;
+  position: absolute;
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 15s;
+}
+@-webkit-keyframes run {
+    from { -moz-transform: translateX(200%);
+     }
+  to { -moz-transform: translateX(-450%); }
+}
+
+  
+  
+main section.secOne  { display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+justify-content: space-around;}
+
+div.footInfo ul {
+    justify-items: space-between;
+    gap:3rem;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    list-style-type: none;
+
+
+
+}
+li a {
+    text-decoration: none;
+    color:black;
+
+}
+  

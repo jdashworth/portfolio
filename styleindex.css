@@ -16,7 +16,7 @@ body {
     display: block;
 }
 .logo{
-padding: 4rem;}
+padding: 1rem;}
 
 .title h1 {    
 display: block;
@@ -59,7 +59,7 @@ justify-content: space-around;}
 
 div.footInfo ul {
     justify-items: space-between;
-    gap:3rem;
+    gap: 1rem;
     display: flex;
     flex-direction: row;
     list-style: none;
